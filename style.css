@@ -1,7 +1,28 @@
 /**********************************************
 *** GENERAL
 **********************************************/
-
+.end-game{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:525px;
+    color: #555;
+    font-size:18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+    
+   
+    
+}
+#dice-1{
+    top:120px;
+}
+#dice-2{
+    top:250px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -140,7 +161,12 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
-
+.end-game-submit{
+    position: absolute;
+    top:555px;
+    left: 50%;
+    transform: translateX(-50%);;
+}
 .dice {
     position: absolute;
     left: 50%;
